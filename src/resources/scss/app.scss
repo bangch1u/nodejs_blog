@@ -1,0 +1,13 @@
+@use 'variables' as var;
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.test{
+    font-size: 1rem;
+    background-color: rgb(157, 255, 0);
+    width: 100px;
+}
+h1{
+    color: var.$red-color;
+}
